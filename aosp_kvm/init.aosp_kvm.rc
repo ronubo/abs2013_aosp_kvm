@@ -32,12 +32,6 @@ on post-fs-data
 on boot
     chown root shell /sys/kernel/debug/tracing/trace_marker
 
-# EB@NUBO: Need to define this when the emulator is activated
-#    setprop nubo.nubogwcon.gwip "172.16.1.106"
-#    setprop nubo.nubogwcon.platformid "5554"
-# Set this property in order to be able to connect to user 0. Read by Activity
-#    setprop nubo.startsurfaceflingerdebug 1
-
 # Set this property so surfaceflinger is not started by system_init
     setprop system_init.startsurfaceflinger 0
 

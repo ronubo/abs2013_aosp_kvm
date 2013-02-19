@@ -2,7 +2,6 @@
 #
 # Product-specific compile-time definitions.
 #
-include $(GENERIC_X86_CONFIG_MK)
 
 LOCAL_PATH := $(call my-dir)
 
